@@ -1,0 +1,22 @@
+Assessing the Economic Losses Due to Urban Traffic Congestion
+
+Road traffic in UK  https://www.gov.uk/government/statistical-data-sets/average-speed-delay-and-reliability-of-travel-times-cgn
+    - not distribued by area/location
+    - 
+
+Amazon food sale 
+    - https://www.kaggle.com/datasets/ranjitkundu/amazon-sales-data?resource=download
+    CustKey	DateKey	Discount Amount	Invoice Date	Invoice Number	Item Class	Item Number	Item	Line Number	List Price	Order Number	Promised Delivery Date	Sales Amount	Sales Amount Based on List Price	Sales Cost Amount	Sales Margin Amount	Sales Price	Sales Quantity	Sales Rep	U/M
+    - Use date to find which day is most sold and then see which discount if best for those days like for holidays or weekends 
+
+Bank Churn two possible dataset 
+    - https://www.kaggle.com/datasets/radheshyamkollipara/bank-customer-churn
+    - https://www.kaggle.com/datasets/mathchi/churn-for-bank-customers
+    Points to tenure and satisfaction score
+    complain vs points 
+    We can split up data based on credit score to filter bad credit 
+
+
+
+
+    
