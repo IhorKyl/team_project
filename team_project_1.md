@@ -1,4 +1,38 @@
 # Team Project Part 1
+Our international research health company is focused on developing methods and practices to help prevent suicide. The analytical department has been tasked with predicting trends and analyzing the correlation between economic factors, demographic variables (such as age and sex), and the number of suicide cases.
+
+We hypothesize that economic factors significantly impact suicide rates, particularly among middle-aged and younger populations. By analyzing predictor correlations and the lag between declining economic indicators and rising suicide cases, we can forecast critical periods and identify target groups for anti-suicide campaigns. This will allow us to time interventions more effectively and tailor our strategies to those most at risk, thereby adding substantial business value by enhancing our ability to prevent suicide through data-driven decision-making.
+
+
+# Data set
+Data set for reserch "Suicide Rates Overview (1985 to 2021)"
+https://www.kaggle.com/datasets/omkargowda/suicide-rates-overview-1985-to-2021/data
+# Columns desription
+1. country - the name of the country where the data was collected.
+2. year - the year in which the data was recorded.
+3. sex - the gender of the individuals in the data.
+4. age - the age range of the individuals in the data.
+5. suicides_no - the total number of suicide cases reported in the given year and country for the specified age and sex group.
+6. population - the total population of the specified age and sex group in the given country and year.
+7. suicides/100k pop - the number of suicides per 100,000 individuals in the specified age and sex group.
+8. country-year - a concatenated field combining the country and year for easy reference.
+9. HDI for year - the Human Development Index (HDI) for the country in the given year. This is a composite statistic of life expectancy, education, and per capita income indicators.
+10. gdp_for_year ($) - the Gross Domestic Product (GDP) of the country in current US dollars for the given year.
+11. gdp_per_capita ($) - the GDP per capita, which is the GDP divided by the population of the country for the given year, in current US dollars.
+12. generation - The generational cohort of the individuals in the data. This can reflect the cultural or historical context influencing the individuals based on their birth period.
+
+
+
+# Team's Rules of Engagement
+* Tackle problems, not people.
+* Everyone participates, no one dominates.
+* State views and ask genuine questions. 
+* Share all relevant information.
+* Explain reasoning and intent.
+* Focus on interests, not positions. 
+* Test assumptions and inferences. 
+* Discuss undiscussable issues. 
+* Be the crew, not the passenger
 
 ## Description
 
@@ -12,80 +46,3 @@ The task in front of your team is deliberately open-ended. Your team will have t
 * How will you make decisions?
 * What is the question you're trying to answer through your data analysis?
 * What tasks need to be completed to get to your final output?
-
-At the end of the module, all team members are encouraged to fork the repo onto their profile so that prospective employers can view the project. 
-
-Datasets you can use:
-* [Kaggle](https://www.kaggle.com/datasets)
-* [collections (datahub.io)](https://datahub.io/collections)
-* [Dataset Search (google.com)](https://datasetsearch.research.google.com/)
-* [Data.gov Home - Data.gov](https://data.gov/) (US)
-* [Datasets and Portals (science.gc.ca)](https://science.gc.ca/site/science/en/open-science/datasets-and-portals)
-* [Welcome - Ontario Data Catalogue](https://data.ontario.ca/)
-
-The Technical Facilitator will deliver brief learning sessions on the following topics:
-
-* GitHub and coding best practices when working in a team  
-* How to communicate the value and impact of their work
-  
-This project applies skills from the following previous modules:
-
-* Introduction to Building Software (Git, Shell & Python) 
-* SQL 
-* Applying Statistical Concepts (Linear regression, classification, and resampling) 
-
-## Learning Outcomes
-By the end of team project, participants will be able to:
-* Resolve merge conflicts
-* Describe common problems or challenges a team encounters when working collaboratively using Git and GitHub
-* Create a program to analyze a dataset with contributions from multiple team members
-
-## Instructions
-
-1. Explore the open source datasets above.
-2. As a team, decide which dataset you would like to analyze and determine:
-    1. What is the primary focus within the dataset?
-    2. What are potential relationships in the data that you could explore?
-    3. What are key questions your project could answer? 
-3. Create rules of engagement to guide how your team will work together (Examples can be found below under [Resources](https://github.com/UofT-DSI/team_project/edit/main/team_project_1.md#resources).
-4. Create a new repository for your project. Hint: this repo has some features commonly found in industry repos. 
-5. Work on the "Advanced Topics" section of [LearnGitBranching](https://learngitbranching.js.org/) to learn more about rebasing
-6. Learn why merge conflicts occur via this [article](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts#:~:text=Understanding%20merge%20conflicts,automatically%20determine%20what%20is%20correct.)
-7. Determine what roles the various team members will play on the team, which tasks need to be completed and assigned to which team members, and what your team norms will be with respect to code reviews, approvals and merges. 
-8. At the end of the week, please record a 3-5 minute video individually that answers the following questions:
-    1. What did you learn?
-    2. What challenges did you face?
-    3. How did you overcome those challenges?
-    4. If you had more time to complete your project, what would you add to it?
-    5. What strengths do you bring to a team work environment?
-9. Have fun! This project is yours. This is the time to create something that prospective employers can consider when reviewing your application for a role, so be sure to clearly demonstrate the business value that your project could provide. What will your project tell them about you, your skills and your ability to work effectively on a team. 
-  
-## Questions to discuss when reviewing your dataset
-
-* What are the key variables and attributes in your dataset?
-* How can we explore the relationships between different variables?
-* Are there any patterns or trends in the data that we can identify?
-* Who is the intended audience for our data analysis?
-* What is the question our analysis is trying to answer?
-* Are there any specific libraries or frameworks that are well-suited to our project requirements?
-
-## Requirements 
-* Each team member must create, review, and merge a pull request 
-* Each team member must write one PR description
-* Each project must design, implement, and test regression
-* Each team must create a README that explains the project, how the team approached their project, and any relevant details to their team project, including the team's Rules of Engagement. Keep in mind that the repo will be on each team member's profile, so be thoughtful about the details you include here. 
-* Each team member must create a video about their learnings and experience 
-
-## Resources
-
-* [Interactive Git Tutorial](https://learngitbranching.js.org/)
-* [Interactive Rebase: Git In Practice - Part 2 - Thinktecture AG](https://www.thinktecture.com/en/tools/git-interactive-rebase/)
-* [Git merge conflicts | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts#:~:text=Understanding%20merge%20conflicts,automatically%20determine%20what%20is%20correct.)
-
-**Rules of Engagement Examples**
-
-* [Five Rules of Engagement for Your High-Performing Team - High5 Leadership](https://high5leadership.com/five-rules-of-engagement-for-your-high-performing-team/)
-* [Ground Rules for Teams: Definition and Examples | Indeed.com](https://www.indeed.com/career-advice/career-development/ground-rules-for-teams)
-* [8 Ground Rules for Great Meetings (hbr.org)](https://hbr.org/2016/06/8-ground-rules-for-great-meetings)
-* [16 Ground Rules for Group Work | Facilitator School](https://www.facilitator.school/ground-rules/ground-rules-for-group-work)
-* [Chapter 8 Working in Teams | Research Software Engineering with Python (third-bit.com)](https://third-bit.com/py-rse/teams.html#teams-coc)
