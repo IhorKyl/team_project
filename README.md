@@ -22,7 +22,6 @@ https://www.kaggle.com/datasets/omkargowda/suicide-rates-overview-1985-to-2021/d
 12. generation - The generational cohort of the individuals in the data. This can reflect the cultural or historical context influencing the individuals based on their birth period.
 
 
-
 # Team's Rules of Engagement
 * Tackle problems, not people.
 * Everyone participates, no one dominates.
