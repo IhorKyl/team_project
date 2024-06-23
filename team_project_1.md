@@ -33,16 +33,3 @@ https://www.kaggle.com/datasets/omkargowda/suicide-rates-overview-1985-to-2021/d
 * Test assumptions and inferences. 
 * Discuss undiscussable issues. 
 * Be the crew, not the passenger
-
-## Description
-
-In your assigned team of 4, you'll collaboratively create a program with a database to analyze data from an open-sourced dataset. 
-
-For example, your team might wish to examine the relationship between the length of a movie and the ratings users give the movie on a popular website. Or you may wish to explore the relationship between the size of a dog breed and the associated genetic ailments of that breed. Teams are encouraged to pick a dataset that interests you, is robust enough that you have flexibility to practice your skills, and that is well-suited for showcasing business impact.
-
-The task in front of your team is deliberately open-ended. Your team will have to make decisions together:
-* How will you select your dataset?
-* How will you make sure all team members can contribute to the project?
-* How will you make decisions?
-* What is the question you're trying to answer through your data analysis?
-* What tasks need to be completed to get to your final output?
