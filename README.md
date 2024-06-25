@@ -21,6 +21,9 @@ https://www.kaggle.com/datasets/omkargowda/suicide-rates-overview-1985-to-2021/d
 11. gdp_per_capita ($) - the GDP per capita, which is the GDP divided by the population of the country for the given year, in current US dollars.
 12. generation - The generational cohort of the individuals in the data. This can reflect the cultural or historical context influencing the individuals based on their birth period.
 
+# Scope of analysis
+1. How the number of suicides varies depending on gender and age.
+2. How GDP per capita affects the number of suicides.
 
 # Team's Rules of Engagement
 * Tackle problems, not people.
