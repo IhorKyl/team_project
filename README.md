@@ -35,3 +35,42 @@ https://www.kaggle.com/datasets/omkargowda/suicide-rates-overview-1985-to-2021/d
 * Test assumptions and inferences. 
 * Discuss undiscussable issues. 
 * Be the crew, not the passenger
+
+# Solution approches  
+1. Data preparation: import and clean data from Kaggle by handling missing values and standardizing data
+2. Exploratory data analysis: visualize relationship between suicide rates (response variable) and GDP per capita (predictor variable) using scatter plots 
+3. Hypothesis testing: compare suicide rates across genders and age groups by categorizing demographic variables
+4. Regression analysis: train-test split to separate data for model training and evaluation, fit multiple linear regression to predict suicide rates. We also performed simple linear regression on HDI vs. suicide rates. 
+5. Model evaluation: calculate evaluation metrics such as root mean squared error and generate a Q-Q plot to check if data follows a normal distribution. 
+
+# Results and recommendations
+Studying and understanding suicide rates from a public health perspective is crucial. In this project, we utilized global suicide statistics to investigate how economic factors and demographic variables correlate with suicide rates.
+
+1. Gender is a strong predictor as our analysis show that males have significantly higher suicide rates (5.12 more suicide cases per 100,000 population, p<0.001) compared to females. 
+2. Suicide rates vary across different age groups with higher age groups showing highest rates - age 75 + years has a coefficient of 2.22 (p<0.001) 
+3. Higher GDP per capita is associated with slightly higher suicide rates (coefficient: 1.04, p <<0.001). Moreover, the effect of GDP per capita on suicide rates may vary by gender - the relationship may be stronger for males compared to females (interaction term coefficient: 0.26, p<0.001). 
+4. The Human Development Index (HDI), which incorporates health, education, and standard of living indicies in addition to economic output measured by GDP, is significantly associated with changes in suicide rates (coefficient: 11.37, p<0.001). As HDI increases, so do suicide rates. Of note, our analysis also identified country where the HDI has the highest positive correlation with suicide rates (Bosnia and Herzegovina). 
+
+Suicide prevention requires multifaceted and coordinated approches, we made the following recommendations based on our analysis:
+1. Target support programs: advocacy for developing and promoting mental health inititives and resources tailored to male's needs such as addressing stigma and encouraging help-seeking behavior. 
+2. Mental health support for elderly (55+ years of age) population: as the elderly population has the highest suicide rates, resources should be invested in expanding access to geriatric mental health services and promoding social activities to reduce isolation and increase mental well-being among the eldly population. 
+3. The positive correlation between GDP or HDI with suicide rates can stem from many socioeconomic, cultural, and psychological factors. Higher GDP/HDI may indicates greater levels of economic productivity and urbanization. However, individuals may be at higher risk for suicide due to increased economic stressors,  societal expectations, and social disconnect and isolation. Further studies investigating these predictor variables are necessary to pinpoint areas for mental health improvement.
+
+
+# Limitations and considerations of the analysis
+While our analysis reveals important insights into factors that influence suicide rates such as gender, age, and economic factors, it is important to discuss the limitations of our analysis. 
+
+* The Q-Q plot showed skewness and outliers, suggesting that residuals may not be normally distributed. Presence of outlier suggests data points where model's predictions significantly deviate from observations. We removed some of the outliers by excluding data points where the suicide rate (case/100k population) to less than 60. As a result, we have effectively enhanced the prediction model, as evidenced by the decreased RMSE and MSLE values. 
+* Our models assume linear relationships between predictor variables and response variable and did not address potential interactions between predictor variables (except for GDP& gender). Violation(s) of these assumptions leads to failure to capture more complex relationships and suboptimal interpretations and predictions. 
+* Variable selection: our current selection of predictor values does not fully capture relevant factors influencing suicide rates.  Limited number of predictor variables may lead to oversimplification of models and biased estimates of predictor variable's effect on suicide rates. Suicide is a complex phenomenon influenced by a multitude of factors across individual, social, cultural, economic and environmental contexts. Understanding these factors on a population level using a data-driven approch is crucial for designing and implementing effective suicide prevention measures. 
+
+# Link to individual videos
+Ihor Kylymchuk:
+
+Parva Thakker: 
+
+Raghvendra Mishra: 
+
+Jia Xin (Janet) Jiang: https://drive.google.com/file/d/1BDpbBjPunKSY10ZufssWMvSAVZ6IDHT9/view?usp=drive_link
+
+
