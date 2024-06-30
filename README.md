@@ -67,7 +67,7 @@ While our analysis reveals important insights into factors that influence suicid
 # Link to individual videos
 Ihor Kylymchuk:
 
-Parva Thakker: 
+Parva Thakker: https://youtu.be/zPPQr8p7lzI
 
 Raghvendra Mishra: https://drive.google.com/file/d/1ThON_69vjB1kUukUc_4m8y4NKXrN3q3v/view?usp=share_link
 
