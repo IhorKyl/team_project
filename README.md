@@ -65,12 +65,10 @@ While our analysis reveals important insights into factors that influence suicid
 * Variable selection: our current selection of predictor values does not fully capture relevant factors influencing suicide rates.  Limited number of predictor variables may lead to oversimplification of models and biased estimates of predictor variable's effect on suicide rates. Suicide is a complex phenomenon influenced by a multitude of factors across individual, social, cultural, economic and environmental contexts. Understanding these factors on a population level using a data-driven approch is crucial for designing and implementing effective suicide prevention measures. 
 
 # Link to individual videos
-Ihor Kylymchuk:
+Ihor Kylymchuk: https://drive.google.com/file/d/1qJ17DMXxfpfmILUO4hAVvunp8IXZqnoz/view?usp=sharing
 
 Parva Thakker: https://youtu.be/zPPQr8p7lzI
 
 Raghvendra Mishra: https://drive.google.com/file/d/1ThON_69vjB1kUukUc_4m8y4NKXrN3q3v/view?usp=share_link
 
 Jia Xin (Janet) Jiang: https://drive.google.com/file/d/1BDpbBjPunKSY10ZufssWMvSAVZ6IDHT9/view?usp=drive_link
-
-
